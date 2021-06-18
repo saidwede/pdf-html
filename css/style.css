@@ -1,0 +1,121 @@
+body{
+    color: #474747;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  @media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
+.logo{
+    color: #274195;
+    font-size: 30px;
+}
+.f-call{
+    text-align: right;
+}
+nav{
+    background-color: #f0f0f0;
+}
+a{
+    color: #000000;
+}
+nav li.active a{
+    color: #274195;
+}
+h1{
+    color: #274195;
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center;
+    margin: 40px 0px;
+}
+.text-center{
+    text-align: center;
+}
+p.img-p{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0px;
+}
+input{
+    height: 40px;
+    width: 300px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+textarea{
+    width: 300px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+button{
+    background-color: #274195;
+    color: #ffffff;
+    border: none;
+    height: 37px;
+    width: 100px;
+    outline-style: none;
+}
+@media (max-width: 769px) {
+    p.img-p img{
+      width: 100%;
+    }
+    input, textarea{
+        width: 100%;
+    }
+  }
+h2{
+    color: #274195;
+    font-size: 40px;
+    text-align: center;
+}
+h3{
+    color: #6cd862;
+    font-size: 50px;
+    text-align: center;
+}
+h4{
+    color: #6cd862;
+    font-size: 25px;
+    text-align: center;
+}
+h5{
+    font-size: 25px;
+}
+.qw{
+    margin-bottom: 50px;
+}
+.qw h6{
+    margin: 5px 0px;
+    font-weight: normal;
+    font-size: 24px;
+}
+form{
+    margin-top: 30px;
+}
+section{
+    margin-bottom: 60px;
+}
